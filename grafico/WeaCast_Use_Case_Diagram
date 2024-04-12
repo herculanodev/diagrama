@@ -1,0 +1,16 @@
+digraph WeaCast_Use_Case_Diagram {
+	fontname=bold fontsize=20 label="Diagrama de Caso de Uso do WeaCast" rankdir=TB
+	node [fontname=Arial shape=box style=filled]
+	U [label="Usuário" color=lightgreen fillcolor=darkolivegreen1 fontcolor=black gradientangle=270 shape=ellipse]
+	A [label="Ver Previsão do Tempo" fillcolor="lightblue2:skyblue" gradientangle=90]
+	B [label="Alterar Localização" fillcolor="lightblue2:skyblue" gradientangle=90]
+	C [label="Receber Alertas Meteorológicos" fillcolor="lightblue2:skyblue" gradientangle=90]
+	D [label="Visualizar Detalhes Meteorológicos" fillcolor="lightblue2:skyblue" gradientangle=90]
+	E [label="Configurar Preferências" fillcolor="lightblue2:skyblue" gradientangle=90]
+	edge [arrowhead=vee color=black style=solid]
+	U -> A
+	U -> B
+	U -> C
+	U -> D
+	U -> E
+}
